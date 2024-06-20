@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    background-color: beige;
+    font-family: Impact, monospace;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-size: cover;
+    width: 100vw;
+    height: 5vh;
+}
+
+nav
+{
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+    text-align: right;
+}
+
+#hamburger{
+    position: fixed;
+    top: 85px;
+    right: 10px;
+}
+
+.check_box {
+    visibility: visible;
+}
+
+#menu{
+    visibility: visible;
+    position: fixed;
+    top: 125px;
+    right: 10px;
+}
+
+.check_box + label{
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    background: url('bars-solid.svg') no-repeat;
+}
+
+.check_box:checked + label{
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    background: url('bars-solid.svg') no-repeat;
+}
+
+#li_kategorie{
+    color: black;
+    text-decoration: none;
+}
+
+#connection{
+    display: block;
+    position: absolute;
+    left: 5px;
+    bottom: -15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#conn_img{
+    height: 5%;
+    width: 5%;
+}
+
+.ht {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    text-shadow: 4px 4px #e8f9fd;
+}
+
+.srodek {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100vw;
+    height: 90vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 5vh;
+}
+
+.ft{
+    position: fixed;
+    bottom: -15px;
+    right: 5px;
+    font-size: 80%;
+    text-shadow: 4px 4px #e8f9fd;
+}
