@@ -26,37 +26,11 @@ nav
     text-align: right;
 }
 
-#hamburger{
-    position: fixed;
-    top: 85px;
-    right: 10px;
-}
-
-.check_box {
-    visibility: visible;
-}
-
 #menu{
     visibility: visible;
     position: fixed;
     top: 125px;
     right: 10px;
-}
-
-.check_box + label{
-    height: 30px;
-    width: 30px;
-    display:inline-block;
-    padding: 0 0 0 0px;
-    background: url('bars-solid.svg') no-repeat;
-}
-
-.check_box:checked + label{
-    height: 30px;
-    width: 30px;
-    display:inline-block;
-    padding: 0 0 0 0px;
-    background: url('bars-solid.svg') no-repeat;
 }
 
 #li_kategorie{
@@ -68,7 +42,7 @@ nav
     display: block;
     position: absolute;
     left: 5px;
-    bottom: -15px;
+    top: 2px
 }
 
 ul{
@@ -95,16 +69,14 @@ ul{
     align-items: flex-start;
     align-content: flex-start;
     width: 100vw;
-    height: 90vh;
 }
 
 footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: flex-end;
     width: 100vw;
-    height: 5vh;
 }
 
 .ft{
@@ -113,4 +85,21 @@ footer {
     right: 5px;
     font-size: 80%;
     text-shadow: 4px 4px #e8f9fd;
+}
+
+.artykul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 80vw;
+    height: 25vh;
+    margin: 5px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
 }
