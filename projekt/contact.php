@@ -17,7 +17,6 @@ include 'header.php';
     <input type="submit" value="Wyślij">
 </form>
 <?php
-//send the form data to the database
 if (isset($_POST['imie']) && isset($_POST['email']) && isset($_POST['wiadomosc'])) {
     $imie = $_POST['imie'];
     $email = $_POST['email'];
