@@ -9,12 +9,15 @@
     <p class="ht">gryinfo</p>
 </header>
 <body>
+<br>
+<a href="contact.php">Kontakt</a>
 <nav>
     <ul id="menu">
-        <li><a href="/main.php">Strona główna</a></li>
+        <li><a href="main.php">Strona główna</a></li>
         <li id="li_kategorie"><a>Kategorie:</a></li>
-        <li><a href="#">FPS</a></li>
-        <li><a href="#">RPG</a></li>
-        <li><a href="#">Battle Royale</a></li>
+        <li><a href="fps.php">FPS</a></li>
+        <li><a href="rpg.php">RPG</a></li>
+        <li><a href="br.php">Battle Royale</a></li>
     </ul>
+
 </nav>
